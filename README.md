@@ -12,7 +12,7 @@ O diagrama de relacionamento abrange as seguintes entidades:
 
 - **Equipes:** Representa as equipes de mecânicos responsáveis pela execução dos serviços nas ordens de serviço.
 
-- **Ordem de Serviços )OS):** Representa as ordens de serviço abertas para consertar ou fazer a revisão dos veículos.
+- **Ordem de Serviços (OS):** Representa as ordens de serviço abertas para consertar ou fazer a revisão dos veículos.
 
 - **Serviços:** Representa os serviços que podem ser realizados na oficina, como trocas de óleo, alinhamento, entre outros.
 
@@ -61,7 +61,7 @@ Cada tabela no banco de dados foi projetada para representar uma entidade, com o
 - Atributos: id_mecanico (PK), nome, endereco, especialidade.
 - Relacionamentos: Um mecânico pode fazer parte de várias equipes (N:M com a tabela equipes).
 
-4.Equipes:
+4. Equipes:
 - Representa as equipes de mecânicos responsáveis pela execução dos serviços nas ordens de serviço.
 - Atributos: id_equipe (PK), nome.
 - Relacionamentos: Uma equipe pode ser associada a várias ordens de serviço (1:N com a tabela ordens_servico).
@@ -103,19 +103,19 @@ O Diagrama de Entidade-Relacionamento (ER) ilustra as entidades do sistema e seu
 
 ## 📥 Como Usar
 **Requisitos**
-- 1. **MySQL** instalado em sua máquina.
-- 2. **MySQL Workbench** (opcional, para visualização do diagrama ER).
+- **MySQL** instalado em sua máquina.
+- **MySQL Workbench** (opcional, para visualização do diagrama ER).
 
 **Passos**
-- 1. Clone este repositório em seu ambiente local:
+1. Clone este repositório em seu ambiente local:
 git clone https://github.com/seu-usuario/sistema-oficina.git
 
-- 2. Acesse o diretório do projeto:
+2. Acesse o diretório do projeto:
 
-- 3. Importe o arquivo SQL para o MySQL:
+3. Importe o arquivo SQL para o MySQL:
 - Abra o MySQL Workbench.
 - Conecte-se ao seu servidor MySQL.
 - Execute o script SQL fornecido para criar o banco de dados e as tabelas.
 
-- 4. Após a execução do script, o banco de dados estará configurado com todas as tabelas e relacionamentos descritos.
+4. Após a execução do script, o banco de dados estará configurado com todas as tabelas e relacionamentos descritos.
 
