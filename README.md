@@ -108,7 +108,7 @@ O Diagrama de Entidade-Relacionamento (ER) ilustra as entidades do sistema e seu
 
 **Passos**
 1. Clone este repositório em seu ambiente local:
-git clone https://github.com/seu-usuario/sistema-oficina.git
+git clone https://github.com/seu-usuario/Projeto-Conceitual-de-Banco-de-Dados-Oficina.git
 
 2. Acesse o diretório do projeto:
 
